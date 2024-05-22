@@ -12,12 +12,10 @@ License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
             <field name="pattern" position="after">
                 <field
                     name="generate_type"
-                    attrs="{'invisible': [('generate_type', '=', 'no')]}"
-                />
+                    invisible="generate_type == 'no'"/>
                 <field
                     name="generate_model"
-                    attrs="{'invisible': [('generate_type', '=', 'no')]}"
-                />
+                    invisible="generate_type == 'no'"/>
             </field>
         </field>
     </record>
