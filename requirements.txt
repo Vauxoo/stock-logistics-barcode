@@ -1,2 +1,2 @@
-# generated from manifests external_dependencies
+# generated from manifests external_dependencies Test 'barcode' has no attribute 'get_barcode_class'
 python-barcode
